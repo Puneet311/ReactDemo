@@ -15,11 +15,11 @@ import MainPorfile from './Components/profilepage/main-profile';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/ReactDemo/",
     element: <Home />,
     children:[
       {
-        path:"",
+        path:"/ReactDemo/",
         element:<Navigate to="/home" replace /> 
       },
       {
