@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import "./contact.scss";
 import { useForm } from "react-hook-form";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 
 function Contact() {

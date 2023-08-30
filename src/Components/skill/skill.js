@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Card from "./card";
 import pic1 from '../../assets/angular_logo.png'
 import pic2 from '../../assets/material_icon.png'

@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import pic2 from '../../assets/puneet2.jpg'
 import './about.scss'
 

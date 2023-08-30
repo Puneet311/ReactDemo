@@ -11,7 +11,7 @@ import {
   Navigate
 } from "react-router-dom";
 import MainPorfile from './Components/profilepage/main-profile';
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 
 const router = createBrowserRouter([
   {

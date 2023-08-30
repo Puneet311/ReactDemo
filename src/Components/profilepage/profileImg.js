@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import  { Component } from 'react'
 import pics from "../../assets/puneet1.jpg"
 import './profile.scss'
 

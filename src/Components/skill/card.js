@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import './skill.scss'
 // import pics2 from '../../assets/angular_logo.png'
 
