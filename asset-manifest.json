@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactDemo/static/css/main.51f33c24.css",
-    "main.js": "/ReactDemo/static/js/main.998122b9.js",
+    "main.js": "/ReactDemo/static/js/main.6a661bf4.js",
     "static/js/787.dc9ee2bf.chunk.js": "/ReactDemo/static/js/787.dc9ee2bf.chunk.js",
     "static/media/puneet2.jpg": "/ReactDemo/static/media/puneet2.573bb121480d68b09d1d.jpg",
     "static/media/puneet1.jpg": "/ReactDemo/static/media/puneet1.e8ee5260966b82e62db7.jpg",
@@ -10,11 +10,11 @@
     "static/media/angular_logo.png": "/ReactDemo/static/media/angular_logo.7494ce3e4a9a47eee16f.png",
     "index.html": "/ReactDemo/index.html",
     "main.51f33c24.css.map": "/ReactDemo/static/css/main.51f33c24.css.map",
-    "main.998122b9.js.map": "/ReactDemo/static/js/main.998122b9.js.map",
+    "main.6a661bf4.js.map": "/ReactDemo/static/js/main.6a661bf4.js.map",
     "787.dc9ee2bf.chunk.js.map": "/ReactDemo/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51f33c24.css",
-    "static/js/main.998122b9.js"
+    "static/js/main.6a661bf4.js"
   ]
 }
