@@ -1,0 +1,67 @@
+.nameHeading {
+  font-size: 4rem;
+  margin-bottom: -2rem;
+  color: #ffff;
+}
+.nameSubHeading {
+  font-size: 1.5rem;
+  color: #ffff;
+}
+.basicButton {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 32px;
+  width: 10rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.hireButton {
+  background-color: #00ffbb;
+  border-color: #00ffbb;
+  transition: 0.3s ease-in-out;
+}
+.hireButton:hover {
+  box-shadow: 2px 2px 2px 2px;
+}
+.downloadButton {
+  background: transparent;
+  color: #ffff;
+  border-color: #ffff;
+  transition: 0.3s ease-in-out;
+}
+.downloadButton:hover {
+  background-color: #ffff;
+  color: black;
+  border: none;
+  box-shadow: 2px 2px 2px 2px;
+}
+.name {
+  color: #00ffbb;
+}
+.imageClass {
+  width: 450px;
+  height: 450px;
+  mix-blend-mode: color-dodge;
+}
+
+@media screen and (max-width: 550px) {
+  .nameHeading {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+  }
+  .nameSubHeading {
+    padding-left: 1rem;
+  }
+  .downloadButton {
+    margin-top: 1rem;
+  }
+  .imageClass {
+    height: 250px;
+    width: 200px;
+  }
+  .basicButton{
+      font-size: 1rem;
+  }
+}

@@ -1,0 +1,93 @@
+.projectHeading{
+    color: #ffff;
+    font-size: 3rem;
+    padding-left: 2rem;
+    margin-top: 0;
+    span{
+        color:#00ffbb;
+    }
+}
+.mainProjectCont{
+    width: 98vw;
+    height: 88vh;
+}
+
+.project-card{
+    width: 350px !important;
+    height: 500px !important;
+    border-radius: 6px !important;
+    background-color: #ffff;
+    margin-left: 1rem;
+}
+
+.project-image{
+    text-align: center;
+    border-radius:6px;
+    overflow:hidden;
+}
+.project-card-body{
+    margin: 0 1rem !important;
+    height: 13rem;
+}
+.project-card-action{
+    text-align: center;
+}
+.btn{
+    background-color: #ff03ffa1;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #c236c2a1;
+}
+.description{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.projectCardHeading{
+    color:#2e816b;
+    font-size:2rem;
+    font-family: fantasy;
+    margin-top: 0;
+}
+// .card-container{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+.swiper{
+    width: auto !important;
+}
+.button1{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: aqua;
+    color: black;
+    font-size: 1rem;
+    position: absolute;
+    top: 47%;
+    z-index: 5;
+    left: 0px;
+    cursor: pointer;
+    border: none;
+}
+.button2{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: aqua;
+    color: black;
+    font-size: 1rem;
+    position: absolute;
+    top: 47%;
+    z-index: 5;
+    right: 0px; 
+    border: none;
+    cursor: pointer; 
+}

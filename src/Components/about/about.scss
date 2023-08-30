@@ -1,0 +1,54 @@
+.imageClassabout {
+  mix-blend-mode: difference;
+  border-radius: 8px;
+  height: 550px;
+  width: 450px;
+}
+.aboutContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  // background-color: blueviolet;
+}
+
+.aboutInfo {
+  width: 450px;
+  // height: 550px;
+  color: #ffff;
+}
+.headingabout {
+  // margin-top: -1rem;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  span {
+    color: #00ffbb;
+  }
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 550px) {
+  .aboutContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .headingabout {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .imageClassabout {
+    height: 325px;
+    width: 250px;
+  }
+  .aboutInfo {
+    margin-top: -2rem;
+    padding: 12px;
+  }
+}

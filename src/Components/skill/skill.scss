@@ -1,0 +1,87 @@
+.container{
+    width: 40vw;
+    height: 200px;
+    margin: 1rem;
+    perspective: 800px;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+}
+.container:hover > .card{
+    transform: rotateX(180deg);
+}
+
+.front,.back{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    border-radius: 8px;
+    backface-visibility: hidden;
+}
+.front{
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        margin: 1rem;
+        h1{
+            margin-bottom: -1rem;
+        }
+        p{
+            font-size: 1.1rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 300;
+        }
+    }
+}
+.back{
+    background-color: #ffff ;
+    transform: rotateX(180deg);
+    h2{
+        margin-bottom: -1rem;
+        padding-left: 1rem;
+    }
+    p{
+        font-size: 1.1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        padding: 1rem;
+    }
+}
+
+
+// class for skill
+.skillContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+    flex-wrap: wrap;
+}
+.mainSkillCont{
+    width: 98vw;
+    height: 98vh;
+}
+.skillHeading{
+    padding-left: 2rem;
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0;
+    span{
+        color:#00ffbb;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .container{
+        width: 90vw;
+    }
+}
+
