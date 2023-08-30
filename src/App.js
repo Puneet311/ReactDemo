@@ -20,10 +20,10 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/ReactDemo/",
-        element:<Navigate to="/home" replace /> 
+        element:<Navigate to="/ReactDemo/home" replace /> 
       },
       {
-        path: "home",
+        path: "/ReactDemo/home",
         element: <MainPorfile />,
       },
       {
